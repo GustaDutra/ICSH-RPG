@@ -13,10 +13,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-element.style {
-    display: none;
-}
-
 .pre-line {
   white-space: pre-line;
 }

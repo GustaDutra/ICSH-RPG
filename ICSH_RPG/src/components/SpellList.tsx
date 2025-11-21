@@ -1,4 +1,5 @@
 import { Link } from "react-router";
+import { useState } from "react";
 import magias from "../spells/spells.json";
 
 function SpellList() {
@@ -33,34 +34,77 @@ function SpellList() {
     "Transmutação",
     "Umbramancia",
   ];
+
   const MagiaNivel = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
   return (
     <>
       {MisteriosArr.map((misterioAtual) => (
-        <div key={misterioAtual}>
-          <h3>{misterioAtual}</h3>
-          {MagiaNivel.map((nivel) => (
-            <div key={nivel} style={{ display: "none" }}>
-              <p>{nivel}° nível</p>
-              <ul>
-                {magias
-                  .filter(
-                    (spell) =>
-                      spell.misterio.includes(misterioAtual) &&
-                      nivel === spell.nivel
-                  )
+        <CollapseMisterio
+          key={misterioAtual}
+          misterioAtual={misterioAtual}
+          MagiaNivel={MagiaNivel}
+        />
+      ))}
+    </>
+  );
+}
 
-                  .map((spells) => (
-                    <li key={spells.id}>
-                      <Link to={`${spells.id}`}>{spells.nome}</Link>
-                    </li>
-                  ))}
-              </ul>
-            </div>
+interface CollapseProps {
+  misterioAtual: string;
+  MagiaNivel: number[];
+}
+
+function CollapseMisterio({ misterioAtual, MagiaNivel }: CollapseProps) {
+  const [open, setOpen] = useState(false);
+
+  return (
+    <div style={{ margin: "20px" }}>
+      {/* BOTÃO DO COLLAPSE */}
+      <h2
+        onClick={() => setOpen(!open)}
+        style={{
+          cursor: "pointer",
+          userSelect: "none",
+        }}
+      >
+        {misterioAtual} {open ? "▲" : "▼"}
+      </h2>
+      {open && (
+        <div style={{ marginLeft: "20px" }}>
+          {MagiaNivel.map((nivel) => (
+            <NivelList
+              key={nivel}
+              nivel={nivel}
+              misterioAtual={misterioAtual}
+            />
           ))}
         </div>
-      ))}
+      )}
+    </div>
+  );
+}
+
+interface NivelProps {
+  nivel: number;
+  misterioAtual: string;
+}
+
+function NivelList({ nivel, misterioAtual }: NivelProps) {
+  const filtradas = magias.filter(
+    (spell) => spell.misterio.includes(misterioAtual) && spell.nivel === nivel
+  );
+
+  return (
+    <>
+      <p>{nivel}° nível</p>
+      <ul>
+        {filtradas.map((spell) => (
+          <li key={spell.id}>
+            <Link to={`${spell.id}`}>{spell.nome}</Link>
+          </li>
+        ))}
+      </ul>
     </>
   );
 }
