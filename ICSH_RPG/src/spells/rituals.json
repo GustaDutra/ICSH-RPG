@@ -1,0 +1,12 @@
+  {
+    "id": "contingencia",
+    "misterio": ["Cronomancia", "Advinhação"],
+    "nome": "Contingência",
+    "nivel": 7,
+    "Tempo":"10 minutos (RITUAL)",
+    "Alcance":"Pessoal",
+    "Componentes":"V, S, M (uma estatueta de si esculpida em marfim e decorada com pedras preciosas)",
+    "duracao": "10 dias",
+    "descricao": "Escolha uma magia de 6º nível ou inferior que possa ser convertida, que tenha tempo de conjuração de 2 ações e que possa alvejar você. Você conjura essa magia - chamada de magia contingente - como parte da conjuração de contingência, usando pontos base para a magia, mas a magia contingente não entra em vigor. Em vez disso, ela entra em vigor quando ocorrer determinada circunstância. Você descreve essa circunstância quando conjura as duas magias. Por exemplo, uma contingência conjurada com a magia respirar na água pode estipular que esta última entre em vigor quando você estiver envolvido em água ou líquido semelhante.\nA magia contingente entra em vigor imediatamente após a circunstância ser atendida na primeira ocasião, seja ou não quando você quiser, e então contingência termina. A magia contingente entra em vigor somente em você, mesmo que ela normalmente possa alvejar outros. Você só pode usar uma magia de contingência de cada vez. Se conjurar esta magia novamente, o efeito da outra contingência sobre você se encerra.",
+    "nivel_superior": ""
+  }
