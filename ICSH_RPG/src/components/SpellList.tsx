@@ -4,6 +4,7 @@ import magias from "../spells/spells.json";
 
 function SpellList() {
   const MisteriosArr = [
+    "Astral",
     "Cronomancia",
     "Espaçomancia",
     "Gravitomancia",

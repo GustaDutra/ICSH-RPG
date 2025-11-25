@@ -3,6 +3,7 @@ import spells from "../spells/spells.json";
 
 type Spell = {
   id: string;
+  misterio: any;
   nivel: number;
   nome: string;
   Tempo: string;
@@ -26,6 +27,7 @@ export default function SpellPage() {
 
   return (
     <div>
+      <p>Mistério(s) de magia: {spell.misterio}</p>
       <h1>{spell.nome}</h1>
       <p>Nível da magia: {spell.nivel}</p>
 
@@ -34,7 +36,7 @@ export default function SpellPage() {
       <p>Componentes: {spell.Componentes}</p>
       <p>Duração: {spell.duracao}</p>
       <p className="pre-line">{spell.descricao}</p>
-      <p>{spell.nivel_superior}</p>
+      <p className="pre-line">{spell.nivel_superior}</p>
     </div>
   );
 }

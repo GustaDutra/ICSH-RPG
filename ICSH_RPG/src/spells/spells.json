@@ -8,8 +8,8 @@
     "Alcance":"Médio",
     "Componentes":"V, S, M",
     "duracao": "Instantânea",
-    "descricao": "Uma esfera de energia com coloração variável surge de seu dedo ao apontá-lo para um ponto de sua escolha no alcance da magia, após isso, essa energia se condensa e se amplia com uma assinatura sonora em uma explosão de um elemento que você seja capaz de manipular. Cada criatura em uma esfera de 20 pés de raio centrada naquele ponto deve fazer uma salvaguarda de Destreza. Um alvo sofre 8d6 de dano elemental baseado no elemento utilizado em uma falha, ou metade do dano em um sucesso.",
-    "nivel_superior": "Quando conjurar esta magia em um nível equivalente equivalente à uma magia de 4º nível ou superior, o dano aumenta em 1d6 para cada nível de magia acima do 3º. Ao ser conjurada como uma magia de 5º nível ou superior, o dano do elemento utilizado se torna mágico."
+    "descricao": "Uma esfera de energia com coloração variável surge de seu dedo ao apontá-lo para um ponto de sua escolha no alcance da magia, após isso, essa energia se condensa e se amplia com uma assinatura sonora em uma explosão de um elemento que você seja capaz de manipular. Cada criatura em uma esfera de 6m de raio centrada naquele ponto deve fazer uma salvaguarda de Destreza. Um alvo sofre 8d6 de dano elemental baseado no elemento utilizado em uma falha, ou metade do dano em um sucesso.",
+    "nivel_superior": "Ao conjurar esta magia com pontos base acima do nível original, o dano aumenta em 1d6 por nível."
 },
 
   {
@@ -46,7 +46,7 @@
     "Componentes":"V, S, M",
     "duracao": "Instantânea",
     "descricao": "A sua sombra pode conter objetos. Ao conjurar essa magia, você pode guardar itens dentro. Sua sombra possui 4 espaços, no qual não conta para os espaços que você está carregando. Você faz o uso de uma ação para retirar o item da sua sombra",
-    "nivel_superior": "Ao conjurar essa magia com mana de 5° nível, o espaço da sua sombra aumenta para 6 e aumenta novamente para 8 no 7° nível"
+    "nivel_superior": "Ao conjurar essa magia com pontos base de 5° nível, o espaço da sua sombra aumenta para 6 e aumenta novamente para 8 no 7° nível"
   },
   {
     "id": "esculpir-sombra",
@@ -106,7 +106,7 @@
     "Componentes":"V, S",
     "duracao": "Instantânea",
     "descricao": "Você conjura um poderoso jato d'água em um alvo e o empurra. Faça um teste de Feitiço contra um alvo no alcance, em um acerto o alvo toma 3d6 de dano contundente e é empurrado 1,5m",
-    "nivel_superior": "Ao conjurar essa magia em níveis maiores, o dano aumenta em 2d6 por nível."
+    "nivel_superior": "Ao conjurar essa magia com pontos base acima do nível original, o dano aumenta em 2d6 por nível."
   },
   {
     "id": "bolso-temporal",
@@ -166,7 +166,7 @@
     "Componentes":"S",
     "duracao": "Instantânea",
     "descricao": "Você telepota para um lugar dentro de 6m que você possa ver.",
-    "nivel_superior": "Ao conjurar essa magia com pontos base acima do 4° nível, a distância do teleporte aumenta em 1,5m à cada nível"
+    "nivel_superior": "Ao conjurar essa magia com pontos base acima do nível original, a distância do teleporte aumenta em 1,5m à cada nível"
   },
   {
     "id": "ponto-retorno",
@@ -274,7 +274,7 @@
     "Componentes":"V, S",
     "duracao": "Instantânea",
     "descricao": "Você reverte o fluxo do tempo de uma criatura, fazendo seus machucados recentes se curarem. Ao tocar uma criatura, você rebobina o tempo das feridas dela, ela recupera 6d4 pontos de vida.\nEssa cura funciona em construtos e mortos vivos",
-    "nivel_superior": "Ao conjurar essa magia com pontos de mana acima do seu nível, os pontos de vida curados aumentam para 1d4 por nível"
+    "nivel_superior": "Ao conjurar essa magia com pontos base acima do nível original, os pontos de vida curados aumentam para 1d4 por nível"
   },
   {
     "id": "tecer-trama",
@@ -363,14 +363,14 @@
   {
     "id": "void-interestelar",
     "misterio": ["Espaçomancia"],
-    "nome": "Void Interesletar",
+    "nome": "Void Interestelar",
     "nivel": 3,
     "Tempo":"2 ações",
     "Alcance":"Curto",
     "Componentes":"V, S",
     "duracao": "10 turnos (Sustentada)",
     "descricao": "Você chama o profundo frio do cosmos para trazer um frio terrível para seu inimigo. Faça um teste de Feitiçaria, em um acerto o alvo é coberto por um frio cósmico, que da 3d6 de dano de frio e a primeira vez que você sustentar a magia em turnos futuros, o alvo deve realizar um teste de Fortitude ou ficará fatigado enquanto o efeito persiste.",
-    "nivel_superior": "Ao conjurar essa magia com pontos base acima do 3° nível, o dano da magia aumenta em 1d6 por nível."
+    "nivel_superior": "Ao conjurar essa magia com pontos base acima do nível original, o dano da magia aumenta em 1d6 por nível."
   },
   {
     "id": "flicker",
@@ -382,7 +382,7 @@
     "Componentes":"V, S, M",
     "duracao": "10 turnos",
     "descricao": "Você oscila entre o seu plano de existencia e outro. Você ganha redução de dano 5 para todos os danos, menos força. No fim de cada um dos seus turnos, você teleporta 3m em uma direção aleatória, decidida pelo mestre. Você pode sustentar essa magia para poder teleportar dessa forma.",
-    "nivel_superior": "Ao conjurar essa magia 2 níveis acima do nível original, a redução de dano aumenta em 3"
+    "nivel_superior": "Ao conjurar essa magia com pontos base 2 níveis acima do nível original, a redução de dano aumenta em 3"
   },
   {
     "id": "lebre-tartaruga",
@@ -418,7 +418,7 @@
     "Componentes":"V, S",
     "duracao": "Instantânea",
     "descricao": "Você distorce o espaço conseguindo mover um objeto ou criatura de tamanho Médio. O alvo deve realizar um teste de Atletismop ou é movido 5 pés em uma direção que você quiser. Caso o espaço esteja ocupado, o alvo recebe 1d8 de dano físico, à depender de onde ele se choque.\nCaso o alvo se choque com outra criatura, essa criatura deve fazer um teste de Reflexos. Em uma falha, ambos recebem o dano.",
-    "nivel_superior": "Ao conjurar essa magia com pontos base acima do 1° nível, o dano aumenta em 1d8 por nível e o empurrão aumenta em 1,5m à cada 2 níveis."
+    "nivel_superior": "Ao conjurar essa magia com pontos base acima do nível original, o dano aumenta em 1d8 por nível e o empurrão aumenta em 1,5m à cada 2 níveis."
   },
   {
     "id": "salto",
@@ -445,6 +445,138 @@
     "nivel_superior": "Ao conjurar essa magia com pontos base de 8° nível, você se torna invisivel até o fim do seu próximo turno ou até quando você não estiver em uma área de escuridão ou penumbra, o que vier primeiro."
   },
     {
+    "id": "queimadura-vacuo",
+    "misterio": ["Espaçomancia"],
+    "nome": "Queimadura do Vácuo",
+    "nivel": 2,
+    "Tempo":"2 ações",
+    "Alcance":"Médio",
+    "Componentes":"S",
+    "duracao": "Instantânea",
+    "descricao": "você canaliza uma pequena explosão de energia corrosiva, centrada em um ponto no alcance da magia, que atinge todas as criaturas em um raio de 3m. Criaturas afetadas devem realizar um teste de Reflexos. Em uma falha recebem 2d6 de dano energético. Em um sucesso recebem apenas metade do dano",
+    "nivel_superior": "Ao conjurar essa magia com pontos base acima do nível original, o dano aumenta em 1d6 por nível"
+  },
+    {
+    "id": "salto-ecoante",
+    "misterio": ["Espaçomancia"],
+    "nome": "Salto Ecoante",
+    "nivel": 3,
+    "Tempo":"2 ações",
+    "Alcance":"Curto",
+    "Componentes":"V, S",
+    "duracao": "1 turno",
+    "descricao": "Você teleporta para um espaço desocupado dentro da magia, deixando para trás um eco de si mesmo que explode com força mágica. Criaturas à uma área de 3m da sua localização anterior devem realizar um teste de Reflexos, tomando 4d8 de dano de força ou metade em um sucesso",
+    "nivel_superior": "Ao conjurar essa magia com pontos base acima do nível original, o dano aumenta em 2d8 a cada 2 níveis."
+  },
+    {
+    "id": "puxao-destorcido",
+    "misterio": ["Espaçomancia"],
+    "nome": "Puxão Distorcido",
+    "nivel": 3,
+    "Tempo":"Reação: Um efeito iria causar dano no alvo no alcance",
+    "Alcance":"Curto",
+    "Componentes":"V",
+    "duracao": "Instantânea",
+    "descricao": "Você tira um aliado do perigo com um teleporte. O efeito que desencadeou a magia ainda acerta o alvo, porém o alvo ganha 5 de RD para o dano do efeito que desencadeou a magia",
+    "nivel_superior": "Ao conjurar essa magia com pontos base 2 níveis acima do nível original, a redução de dano aumenta em 5"
+  },
+      {
+    "id": "mergulhar-romper",
+    "misterio": ["Água"],
+    "nome": "Mergulhar e Romper",
+    "nivel": 3,
+    "Tempo":"2 ações",
+    "Alcance":"Pessoal",
+    "Componentes":"V, S",
+    "duracao": "Instantânea",
+    "descricao": "Você pula 3m e ao invés de cair você desaparece em um respingo de água, mergulhando na superfície como um nadador mergulhando em uma pscina. Você então sai em outro respíngo de água em um espaço desocupado dentro de 12m, saindo da superfície enquanto você pula pra fora, caindo 3m daonde você saiu. Cada respingo de água que causam 2d10 de dano contundente em criaturas em uma área de 1,5m. Criaturas em duas áreas de respingo só tomam dano uma vez.",
+    "nivel_superior": ""
+  },
+    {
+    "id": "translocar",
+    "misterio": ["Espaçomancia"],
+    "nome": "Translocar",
+    "nivel": 4,
+    "Tempo":"2 ações",
+    "Alcance":"Médio",
+    "Componentes":"V, S",
+    "duracao": "Instantânea",
+    "descricao": "Você instantâneamente teleporta você e outros itens que você esteja carregando para um espaço desocupado que você possa ver dentro do alcance. Se você estiver carregando outra criatura com você, a magia falha.",
+    "nivel_superior": "Ao conjurar essa magia com pontos base de 6 nível, o alcance se torna 2km. Você não precisa ver seu destino se você já esteve lá antes e sabe sua localização e distância de você. Você fica então imune à essa magia por 1 hora."
+  },
+    {
+    "id": "teleporte-forçado",
+    "misterio": ["Espaçomancia"],
+    "nome": "Teleporte Forçado",
+    "nivel": 6,
+    "Tempo":"2 ações",
+    "Alcance":"Médio",
+    "Componentes":"V, S, M",
+    "duracao": "Instantânea",
+    "descricao": "Você forçadamente teletransporta dois alvos para um espaço dentro do alcance. As criaturas devem caber dentro do novo espaço, que deve estar dentro da área da magia e dentro do seu campo de visão. Criaturas involuntárias devem realizar um teste de Vontade ou será transportada",
+    "nivel_superior": "Ao conjurar essa magia com pontos base acima do nível original, você pode aumentar o número de alvos em 1."
+  },
+    {
+    "id": "torcao-espacial",
+    "misterio": ["Espaçomancia"],
+    "nome": "Torção Espacial",
+    "nivel": 8,
+    "Tempo":"2 ações",
+    "Alcance":"Médio",
+    "Componentes":"V, S, M",
+    "duracao": "Instantânea",
+    "descricao": "Você torce duas criaturas e forçadamente teletransporta elas dentro da área. As criaturas devem caber dentro do novo espaço, que deve estar dentro da área da magia e dentro do seu campo de visão. Cada alvo deve realizar um teste de Fortitude, ou sofrerá 10d10 de dano de força.",
+    "nivel_superior": ""
+  },
+    {
+    "id": "piscar-carregado",
+    "misterio": ["Espaçomancia"],
+    "nome": "Piscar carregado",
+    "nivel": 5,
+    "Tempo":"2 ações",
+    "Alcance":"Curto",
+    "Componentes":"V, S",
+    "duracao": "1 turno",
+    "descricao": "Você se impulsiona na fabrica do espaço para dar um golpe carregando o momentum do seu teleporte. Você teleporta para um espaço vazio adjacente à criatura que você vê no seu alcance e faz um ataque corpo-a-corpo contra a criatura com a arma que você está carregando. Em um acerto, o golpe causa seu dano normal mais 2d8 de dano de força.",
+    "nivel_superior": "Ao conjurar essa magia com pontos base 2 níveis acima do nível original, o alcance aumenta em um grau e o dano de força aumenta em 1d8"
+  },
+    {
+    "id": "teletransporte",
+    "misterio": ["Espaçomancia"],
+    "nome": "Teletransporte",
+    "nivel": 6,
+    "Tempo":"10 minutos",
+    "Alcance":"150 km",
+    "Componentes":"V, S, M",
+    "duracao": "Instantânea",
+    "descricao": "Você e quatro outros alvos que você esteja tocando - criaturas voluntárias ou objetos do tamanho de uma criatura - são instantâneamente transportados para um lugar dentro do alcance, ao longo que você saiba a posição do lugar em relação da sua posição atual e a sua aparência. Informação falsa do local usualmente faz a magia falhar, mas pode te levar para um lugar não desejado. Teletransporte não é preciso em distâncias longas. Os alvos tem uma margem de erro igual à 1% do  total de distância percorrida, para viagens curtas essa distância é irrelevante.",
+    "nivel_superior": "Ao conjurar essa magia com pontos base de 7° nível, o alcance se torna 1500km.\nNo 8° nível vocês podem viajar em qualquer lugar do planeta, mas se você se teletransportar mais do que 1500km, vocês tem uma margem de erro de 15km.\nNo 9° nível, vocês podem viajar para qualquer localização de outro planeta no mesmo sistema solar, se você tem conhecimento preciso do local vocês tem uma margem de erro de até 150km.\nNo 10° nível, vocês podem teletransportar em qualquer planeta dentro da galáxia."
+  },
+    {
+    "id": "teletransporte-interplanar",
+    "misterio": ["Espaçomancia"],
+    "nome": "Teletransporte Interplanar",
+    "nivel": 8,
+    "Tempo":"10 minutos",
+    "Alcance":"1,5m",
+    "Componentes":"V, S, M (Uma chave planar do plano de existencia, usado como localizador)",
+    "duracao": "Instantânea",
+    "descricao": "Você e oito aliados travessam as barreiras entre planos de existência. Você deve saber que o plano de destino existe e usar a chave dele, criado do material daquele plano como um localizador para a magia. Enquanto chaves planares são incomuns, assim como Teletransporte Interplanar, semiplanos mais incomuns podem ter chaves raras e até mesmo únicas.\nA magia é altamente imprecisa, você aparece 1d20x30km do último lugar que um dos seus alvos estava localizada na última vez que você viajou pra esse plano. Se é a primeira vez de todos os alvos viajando para um plano, você aparece em um lugar aleatório dentro do plano de exisência. Teletransporte Interplanar não provê meios de retorno, por mais que conjurar Teletransporte Interplanar novamente permita você retornar para o plano passado, a não ser que uma circunstância o impeça.",
+    "nivel_superior": ""
+  },
+  {
+    "id": "semiplano",
+    "misterio": ["Espaçomancia"],
+    "nome": "SemiPlano",
+    "nivel": 7,
+    "Tempo":"1 minuto",
+    "Alcance":"Curto",
+    "Componentes":"V, S, M",
+    "duracao": "1 hora",
+    "descricao": "",
+    "nivel_superior": ""
+  },
+  {
     "id": "",
     "misterio": [""],
     "nome": "",
@@ -456,7 +588,7 @@
     "descricao": "",
     "nivel_superior": ""
   },
-    {
+  {
     "id": "",
     "misterio": [""],
     "nome": "",
@@ -468,7 +600,7 @@
     "descricao": "",
     "nivel_superior": ""
   },
-    {
+  {
     "id": "",
     "misterio": [""],
     "nome": "",
@@ -480,7 +612,7 @@
     "descricao": "",
     "nivel_superior": ""
   },
-    {
+  {
     "id": "",
     "misterio": [""],
     "nome": "",
@@ -492,7 +624,7 @@
     "descricao": "",
     "nivel_superior": ""
   },
-    {
+  {
     "id": "",
     "misterio": [""],
     "nome": "",
@@ -504,7 +636,7 @@
     "descricao": "",
     "nivel_superior": ""
   },
-    {
+  {
     "id": "",
     "misterio": [""],
     "nome": "",
@@ -516,7 +648,7 @@
     "descricao": "",
     "nivel_superior": ""
   },
-    {
+  {
     "id": "",
     "misterio": [""],
     "nome": "",
@@ -528,7 +660,7 @@
     "descricao": "",
     "nivel_superior": ""
   },
-    {
+  {
     "id": "",
     "misterio": [""],
     "nome": "",
@@ -540,7 +672,7 @@
     "descricao": "",
     "nivel_superior": ""
   },
-    {
+  {
     "id": "",
     "misterio": [""],
     "nome": "",
@@ -552,7 +684,67 @@
     "descricao": "",
     "nivel_superior": ""
   },
-    {
+  {
+    "id": "",
+    "misterio": [""],
+    "nome": "",
+    "nivel": 1,
+    "Tempo":"",
+    "Alcance":"",
+    "Componentes":"V, S, M",
+    "duracao": "1 turno",
+    "descricao": "",
+    "nivel_superior": ""
+  },
+  {
+    "id": "",
+    "misterio": [""],
+    "nome": "",
+    "nivel": 1,
+    "Tempo":"",
+    "Alcance":"",
+    "Componentes":"V, S, M",
+    "duracao": "1 turno",
+    "descricao": "",
+    "nivel_superior": ""
+  },
+  {
+    "id": "",
+    "misterio": [""],
+    "nome": "",
+    "nivel": 1,
+    "Tempo":"",
+    "Alcance":"",
+    "Componentes":"V, S, M",
+    "duracao": "1 turno",
+    "descricao": "",
+    "nivel_superior": ""
+  },
+  {
+    "id": "",
+    "misterio": [""],
+    "nome": "",
+    "nivel": 1,
+    "Tempo":"",
+    "Alcance":"",
+    "Componentes":"V, S, M",
+    "duracao": "1 turno",
+    "descricao": "",
+    "nivel_superior": ""
+  },
+  {
+    "id": "",
+    "misterio": [""],
+    "nome": "",
+    "nivel": 1,
+    "Tempo":"",
+    "Alcance":"",
+    "Componentes":"V, S, M",
+    "duracao": "1 turno",
+    "descricao": "",
+    "nivel_superior": ""
+  },
+  {
     "id": "",
     "misterio": [""],
     "nome": "",
@@ -564,4 +756,5 @@
     "descricao": "",
     "nivel_superior": ""
   }
+  
 ]
