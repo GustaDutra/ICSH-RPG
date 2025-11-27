@@ -325,18 +325,6 @@
     "nivel_superior": ""
   },
   {
-    "id": "assalto-rapido",
-    "misterio": ["Cronomancia"],
-    "nome": "Assalto Rápido",
-    "nivel": 8,
-    "Tempo":"1 ação",
-    "Alcance":"Curto",
-    "Componentes":"V, S",
-    "duracao": "10 turnos",
-    "descricao": "Você acelera os ataques de um alvo dentro do alcance. O alvo ganha uma ação adicional para atacar cada turno",
-    "nivel_superior": ""
-  },
-  {
     "id": "devorar-forma-sombria",
     "misterio": ["Sombra"],
     "nome": "Devorar Forma Sombria",
@@ -613,9 +601,9 @@
     "nivel_superior": ""
   },
   {
-    "id": "piscadela",
+    "id": "recuo-instantaneo",
     "misterio": ["Espaçomancia"],
-    "nome": "Piscadela",
+    "nome": "Recuo Instantâneo",
     "nivel": 4,
     "Tempo":"Reação: Você toma dano de um ataque ou magia",
     "Alcance":"6m",
