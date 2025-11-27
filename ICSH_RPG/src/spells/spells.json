@@ -609,7 +609,7 @@
     "Alcance":"6m",
     "Componentes":"V",
     "duracao": "Instantânea",
-    "descricao": "Você sutilmente escapa do perigo. Você instantâneamente teleporta para um espaço desocupado dentro do alcance, você ganha resistência para o dano igual à metade do seu nível. Você não pode usar essa magia se não tem para onde você se teleportar",
+    "descricao": "Você sutilmente escapa do perigo. Você instantâneamente teleporta para um espaço desocupado dentro do alcance, você ganha resistência para o dano igual ao seu nível. Você não pode usar essa magia se não tem para onde você se teleportar",
     "nivel_superior": ""
   },
   {
